@@ -1,0 +1,89 @@
+*,* before * after{
+    box-sizing: border-box;
+}
+
+
+*{
+    margin:0;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bg-fav{
+    background-color: purple;
+}
+
+.text-white{
+    color: #fff;
+}
+.bg-light{
+    background-color: #fff;
+}
+
+.bg-secondary{
+    background-color: #d1d1c7;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+nav .container h1{
+    float: left;
+}
+
+nav .container ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.hero{
+    height: 200px;
+    background-image: url('../image/bunga.jpg');
+    background-position: 0-100px;
+    background - size: cover;
+}
+.artikel{
+    width: 60%;
+    border: 2px solid red;
+    float: left;
+}
+
+.about{
+    width: 30%;
+    border: 2px solid red;
+    float: right;
+}
+
+.about img{
+   width: 100px; 
+   border-radius: 50%;
+}
+
+footer{
+    height: 70px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+}
